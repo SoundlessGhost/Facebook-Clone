@@ -1,0 +1,7 @@
+#cat img{
+    height: 252px;
+    width: 144px;
+    margin-right: 10px;
+    background-color: gray;
+    cursor: pointer;
+}

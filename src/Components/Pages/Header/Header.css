@@ -1,0 +1,113 @@
+.HeaderGridClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 14px;
+}
+.HeaderGridClass input {
+  height: 44px;
+  width: 240px;
+  padding: 20px 0;
+  padding-left: 10px;
+  border-radius: 20px;
+  margin-left: 5px;
+  background-color: rgb(243, 243, 243);
+}
+.imgAndInput {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imgAndInput img {
+  height: 44px;
+  width: 44px;
+}
+.middleImagesClass {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.middleImagesClass img {
+  height: 25px;
+  width: 28px;
+  margin-right: 95px;
+}
+.middleImagesClass img:hover {
+  cursor: pointer;
+}
+.rightImagesClass {
+  display: flex;
+  align-items: center;
+}
+.rightImagesClass img {
+  height: 40px;
+  width: 42px;
+  margin-left: 10px;
+  padding: 10px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 45%;
+}
+.rightImagesClass img:hover {
+  background-color: rgb(228, 228, 228);
+  cursor: pointer;
+}
+.popupContainer {
+  border: 1px solid rgb(221, 220, 220);
+  height: 530px;
+  width: 370px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(251, 251, 251);
+}
+.popUpUser {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  padding-left: 10px;
+}
+.popUpUser img {
+  height: 35px;
+  width: 38px;
+  margin-right: 8px;
+}
+.popUpBtn {
+  width: 300px;
+  background-color: rgb(238, 238, 238);
+  margin: 12px 0;
+  padding: 10px 0;
+  border-radius: 10px;
+}
+.popUpBtn:hover {
+  background-color: rgb(230, 230, 230);
+}
+.fontIconClassContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  height: 50px;
+  padding-left: 10px;
+}
+.fontIconClassContainer:hover {
+  background-color: rgb(239, 239, 239);
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fontIconClass {
+  height: 18px;
+  width: 18px;
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  border-radius: 50%;
+}
+.popupTerms {
+  width: 300px;
+  font-size: 12px;
+}
+.popupTerms span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,0 +1,64 @@
+.leftNavContainer {
+  margin-left: 8px;
+  margin-top: 15px;
+  background-color: rgb(252, 252, 252);
+  height: 650px;
+  width: 340px;
+  margin-right: 20px;
+}
+.showItem {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 400px;
+  padding-left: 10px;
+}
+.showItem img {
+  height: 35px;
+  width: 38px;
+  margin-right: 12px;
+}
+.seeMoreImg{
+  height: 20px;
+  width: 20px;
+  margin-right: 12px;
+  background-color: rgb(229, 229, 229);
+  padding: 5px;
+  border-radius: 50%;
+}
+.showItem:hover,.user:hover ,.popUpUser:hover{
+  background-color: rgb(239, 239, 239);
+  border-radius: 10px;
+  width: 330px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+.user {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 400px;
+  padding-left: 10px;
+}
+.user img {
+  height: 35px;
+  width: 38px;
+  margin-right: 8px;
+}
+.terms {
+  font-size: 11px;
+  width: 250px;
+}
+.terms span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.seeMore{
+  display: flex;
+  align-items: center;
+}
+.seeMore p{
+  margin-left: 5px;
+}

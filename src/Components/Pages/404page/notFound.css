@@ -1,0 +1,35 @@
+.NotFound__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: italic;
+  background-color: white;
+  height: 100vh;
+}
+.NotFound__Container img {
+  height: 200px;
+  width: 250px;
+}
+.NotFound__Container span {
+  font-size: 17px;
+  color: rgb(95, 94, 94);
+}
+.NotFound_Tittle {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.NotFound_Tittle span {
+  font-size: 35px;
+  color: rgb(133, 132, 132);
+}
+.errorMsz {
+  font-size: 17px;
+  color: rgb(95, 94, 94);
+}
+.errorMsz span {
+  font-weight: bold;
+  margin-right: 5px;
+  color: black;
+}
